@@ -29,3 +29,4 @@ console.log(typeof(idadeNumber))
 const idadeTexto = idadeNumber.toString()
 console.log(typeof(idadeTexto))
 
+
