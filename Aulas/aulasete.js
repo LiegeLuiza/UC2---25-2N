@@ -2,10 +2,11 @@
 const primeiroNumero = 10 
 
 const segundoNumero = 20 
-//const resultado = primeiroNumero+segundoNumero+4
-//const resultado = primeiroNumero-segundoNumero
+/*const resultado = primeiroNumero+segundoNumero+4
+/*const resultado = primeiroNumero-segundoNumero
 const resultado = primeiroNumero*segundoNumero
-//imprime o valor resultante 
+
+/*imprime o valor resultante 
 
 console.log(resultado)
 /* MULTIPLICAÇÃO 
