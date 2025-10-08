@@ -45,18 +45,18 @@ console.log("idade em dias:", idadeDias)
 console.log("idade em horas?", idadeHoras) //O console.log imprimiu no console porem nao na tela para o usuario. 
 console.log(idadeNumber)
 //EXERCICIO 5 
-let num1 = prompt ("digite um numero:")
-let num2 = prompt ("digite outro numero:")
-num1=Number
-num2=Number
+let num1 = Number(prompt ("digite um numero:"))
+let num2 = Number(prompt ("digite outro numero:"))
 let maiorSegundo = ("o primeiro numero é maior do que o segundo?")
 let igualSegundo = ("o primeiro numero é igual ao segundo?")
 let primeirodivisivelSegundo = ("o primeiro numero é divisivel pelo segundo?")
 let segundodivisivelPrimeiro = ("o primeiro numero é divisivel pelp primeiro?")
 console.log("o primeiro numero é maior do que o segundo?",num1>num2)
 console.log("o primeiro numero é igual ao segundo?",num1===num2)
-console.log("o primeiro numero é divisivel pelo segundo?",num1%num2=== 0)
-console.log("o segundo é divisivel pelo primeiro?",num1%num2===0 )
+console.log("o primeiro numero é divisivel pelo segundo?",((num1%num2)===0))
+console.log("o segundo é divisivel pelo primeiro?",num2%num1===0)
+
+
 
 
 
