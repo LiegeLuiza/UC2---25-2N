@@ -43,15 +43,19 @@ console.log(numero)*/
 //exercico novo 
 /*let array 
 console.log('a. ', array)
+variavel array sera definida como undefined
 array = null 
+//variavel array sera exibida como null
 console.log('b. ', array)
 array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 console.log('c. ', array.length)
 let i = 0 
 console.log('d. ',array(i))
 
-array[i+1] = 19
+array[i+1] = 19 (O NUMERO 1 DO ARRAY QUE É '4', VAI VIRAR 19)
+
 console.log('e. ', array)
+
 const valor = array[i+6]
 console.log('f. ', valor)
 
@@ -63,18 +67,18 @@ c:\gitlili\UC2---25-2N\Aulas\AULA10\auladez.js:51
 console.log('d. ',array(i))
 
 
-const frase = prompt("subi num ônibus em marrocos")
+const frase = prompt("DIGITE UMA FRASE")
 console.log(frase.toUpperCase().replaceALL("A", "I"),frase.length)*/
-
+//ESSE TOUPPERCASE FAZ TUDO QUE O USUARIO DIGITAR FICAR MAIUSCULO
 //exercicio mil 
- 
+ //OUTRA ATIVIDADEEE
 const nome = prompt ("qual seu nome?")
 const email = prompt ("qual seu email?")
 console.log
 ("o email", email, "foi cadastrado com sucesso. seja bem vindo!", nome)
 
 //exercicio mil e 1 ARRAY]
-let comidaFav= ["pizza", "camarão empanado", "macarrão", "kiwi", "sushi"]
+let comidaFav= ["pizza", "camarão empanado", "macarrão", "kiwi", "sushi"]//ARRAY COLCHETES
 console.log(Array)
 console.log("Esaas minhas comidas favoritas", comidaFav)
 console.log(Array(0))
@@ -88,6 +92,17 @@ console.log(Array(4))
 const comidaUsuario=prompt ("qual sua comida preferida?")
 comidasFav[1]=comidaUsuario
 console.log("\Nova lista de comidas", Array)
+
+//atividade 5 lista de tarefas 
+let listadeTarefas = []
+const tarefa1 = prompt ("digite três tarefas do seu dia a dia:")
+listadeTarefas.push(tarefa1)
+console.log(listadeTarefas)
+const indice = Number(prompt("digite o n"))
+
+//if se sim 
+//else se nao 
+//if else condicao
 
 
 
