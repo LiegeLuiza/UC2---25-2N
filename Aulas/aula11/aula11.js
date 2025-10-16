@@ -1,4 +1,4 @@
-/*let condicao1 = true 
+let condicao1 = true 
 
 if (condicao1){ //if, se sim
     //como o valor da condição é true, o codigo do bloco é executado
@@ -38,7 +38,7 @@ else if(condicao3){
     console.log("entrou no else if 2")
 }
     else 
-    console.logo("entrouno else")*/
+    console.logo("entrou no else")*/
 
     //atividade 3 criar um programa 
     /*let num1 = Number(prompt("digite o numero 1")) 
@@ -50,14 +50,14 @@ else if(condicao3){
     else if (num1<num2){ // condição composta 
         console.log("numero 1 é menor que o numero 2")
     }
-else 
-console.log("os numero sao iguais ")*/
+else //
+console.log("os numero sao iguais ")
 //condicional (aninhada if+else if+else)
 //DEFAULT É QUANDO NÃO ENCONTRA NENHUM VALOR 
 //BREAK CANCELA O CODIGO, SE ENTROU NO CASE PARA SAIR DO 
 
 let paisOrigem = prompt ("digite o seu pais de origem")
-switch(paisOrigem){//variavel que quero testar o igual 
+switch(paisOrigem){//variavel que quero testar o igual, usada para comparar se por exemplo "pais de origem, e o case"
 case 'Brasil':
     console.log("nacionalidade brasileira")//toLowerCase converte tudo pra minusculo
 console.log("entrou no casel")
@@ -66,7 +66,7 @@ break
 case 'EUA':
     console.log("nacionalidade americana")
     console.log("entrou no case2")
-break
+break // break é para sair do codigo switch case
 case'India':
 console.log("nacionalidade indiana")
 console.log("entrou no case3")
@@ -78,7 +78,7 @@ break
 
 //POKEMON 
 let pokemon = prompt ("qual seu pokemon inicial?")
-switch(pokemon.toLowerCase){
+switch(pokemon){
 case'bulbasaur':
 console.log("planta veneno")
 console.log("entrou no case1")
@@ -89,7 +89,7 @@ case 'charmander':
     console.log("entrou no case2")
     break
 
-    case 'squirtle':
+    case 'squirtle'://exemplo: se o usuario colocar 
         console.log("agua")
     console.log("entrou no case3")
     break
