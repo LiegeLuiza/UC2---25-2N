@@ -69,3 +69,46 @@ if (numero%2===0) {
 }else{
     console.log("nao passou no teste")
 }
+
+//exercicios de fixação 
+//MERCADO 
+let fruta = prompt ("escolha uma fruta")
+let preco
+switch (fruta) {
+  case "laranja":
+
+  preco = 3.5 
+  break;
+
+case "maca":
+preco = 2.25
+
+break;
+case "uva":
+    preco = 0.30 
+    break
+    case "pera":
+        preco=5.5
+        break; //BREAK PARA O ITEM c.
+        default:
+            preco=5 
+            break;
+}
+console.log("o preço da fruta", fruta, "é", "RS", preco)
+//o codigo serve para mostrar o preço das frutas que o usuario quiser 
+//dependendo do que o da fruta que o usuario digitar o preço vai ser impresso no console 
+
+
+//MENSAGEM SECRETA 
+const Numero = Number(prompt("digite o primeiro numero:"))
+let mensagem
+if(numero>0) {
+console.log("esse numero passou no teste!!")
+ mensagem = "essa mensagem é secreta!!!"
+
+}
+console.log(mensagem) /* antes se eu colocasse um numero menor que zero apareceria como indefined, pq a minha variavel "let mensagem" estava dentro das chaves({}), e assim ela meio que que "some", e no console não vai aparecer, depois eu coloquei o "let mensagem" fora das chaves */
+
+
+
+//exercicos de escrita de codigo 
