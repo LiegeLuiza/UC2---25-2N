@@ -22,7 +22,7 @@ if(blocoMinerar1 == "minerio de diamante"){
     console.log("picareta de ferro ou pedra é o ideal: velocidade"+velocidadeFerro)
 }
 else{ //SE NAO for nenhum dos citados acima, a mensagem que vai aparecer vai ser essa 
-    console.log("qualquetr ferramenta funcuiona mas a de madeira é a masi simples") 
+    console.log("qualquer ferramenta funciona, mas a de madeira é a mais simples") 
 }
 // o else serve para se caso NAO for alguma daquelas ferramentas do if
 
@@ -43,7 +43,7 @@ const danoFinal = danoBruto - armaduraInimiga
 vidaInimiga -= danoFinal
 if (vidaInimiga <= 0) {// <= usado para saber se a vida inimiga estiver menor ou igual a 0
     console.log("o creeper foi derrotado!Voce sobreviveu à explosao!") //SE for verdadeiro vai ser impresso essa mensagem 
-}else console.log ("o creeper ainda esta vivo com" + vidaInimiga + "de vida, corra!")
+}else console.log ("o creeper ainda esta vivo com " + vidaInimiga + " de vida, corra!")
 //SE NAO for, vai ser impressa essa
 
 

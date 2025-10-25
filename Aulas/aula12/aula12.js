@@ -80,7 +80,7 @@ switch (fruta) {
   preco = 3.5 
   break;
 
-case "maca":
+case `"maca"`:
 preco = 2.25
 
 break;
