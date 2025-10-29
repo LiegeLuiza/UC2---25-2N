@@ -15,7 +15,7 @@ for (let numero of numeros){
 console.log("o numero é:", numero)
 
 
-}*/
+}
 
 const palavras = ["oi", "sumido", "tudo", "bem?", "saudades"]
 let frase = ""
@@ -53,5 +53,41 @@ for(let numero of lista){
 //foi impresso todos os numeros menos o 18 
 //o FOR OF não é suficiente, o que é suficiente é usar o FOR 
 
+//EXERCICIOS DE FIXAÇÃO 3 
+const quantidadeTotal = Number (prompt("digite a quantidade de linhas:"))
+let quantidadeAtual = 0 
+while(quantidadeAtual<quantidadeTotal){//é um laço de repetição que executa um bloco de código enquanto uma condição for verdadeira
+    let linha = "" //isso serve para criar uma linha "vazia"
+    for (let asteriscos=0;/*a repetição começa em 0*/ /*O laço continua enquanto a variável asteriscos for menor que o valor de quantidadeAtual somado a 1.// asteriscos < quantidadeAtual + 1; asteriscos++/*A cada ciclo (ou iteração), a variável asteriscos é aumentada em 1*///){
+//linha += "*"/*Dentro de cada ciclo, um asterisco ("*") é adicionado ao final da string armazenada na variável linha. */
+/* }
+ console.log(linha)
+ quantidadeAtual++
+}*/
+
+//EXERCICIO DE FIXAÇÃO 4 
+const quantidadeBixos = Number(prompt("quantos bichinhos de estimação você tem?"))//passar uma string(PALAVRA") para NUMBER, pq no caso o usuario vai digitar um numero
+
+//let quantidade, a quantidade de bixos que o usuario tem
+
+if /*se for*/ (quantidadeBixos === 0)/*quantidade de bixos for igual a 0*/ {
+    console.log("que pena! voce pode adotar um pet!")
+
+} else /*se for maior que 0*/{
+    let listaNomes = []; ///lista de array vazia que vai armazenar os nomes que o usuario colocar
+    let nome //eu criei essa variavel para adicionar o prompt
 
 
+    for (let i = 0;/*i=0 iterador, inicio que é o 0*/ 
+    i < quantidadeBixos;/*isso significa que Inicia no 0 e depois vai contanto a quantidade de bichos que o usuario digitar*/
+     i++/*i++ para quantos numeros eu/usuario quiser, a partir do 0, por exemplo,usuario digitou "6", vai contar "0, 1, 2, 4, 5" */) {
+
+        nome = prompt("digite o nome deles!")
+        listaNomes.push(nome) //o .push adiciona o que o usuario digitar dentro do meu array vazio
+    }
+    console.log("o nome de dos seus bichinhos são:", listaNomes)
+}
+
+/*let meuArray= [50, 5, 7, 8, 50]
+
+meuArray.push(50)*/ //exemplo sor lucas
