@@ -1,5 +1,5 @@
-/*EXEMPLOOO
-function imprimirOlaMundo () {
+//EXEMPLOOO
+/*function imprimirOlaMundo () {
     console.log("ola mundo")
 }
 //invocando a função 
@@ -68,7 +68,7 @@ console.log(`A soma é ${numero}`)
 
    let resultadoArea = calcuaArea(2,3)
 
-console.log(calcuaArea(2,3))*/
+console.log(calcuaArea(2,3))
 
 //EXERCICIOS 1001
 function doisNumeros (nu1, nu2){
@@ -76,15 +76,63 @@ function doisNumeros (nu1, nu2){
     return soma 
 }
 const areaCalculada = doisNumeros(5, 5)
-console.log(doisNumeros(5, 5))
-//
+console.log(doisNumeros(5, 5))*/
+/*ex 2 
+let arrayNumeros = [1, 2, 3, 4, 5, 6]
+  function divisao (array)/*pode receber QUALQUER tipo de array {
+    let novoArray = []
+    novoArray.push(array[0] / 2 )
+    novoArray.push(array[array.length-1]/2)
+    return novoArray//resturn para pegar o que tem dentro do local 
 
-let meuArray = [1, 2, 3, 4, 5, 6]{
-    return meuArray
+  }
+  /*console.log(divisao(arrayNumeros))*/
+
+
+
+//exercicio 1 com sintaxe de expressão de função 
+/*EXERCICIOS 1001
+function doisNumeros (nu1, nu2){
+  const soma = nu1+nu2
+  return soma 
+}
+const areaCalculada = doisNumeros(5, 5)
+console.log(doisNumeros(5, 5))*/
+
+/*const doisNumeros = function() {
+  const nu1=5
+  const num2=5
+  const resultado =nu1+num2 
+console.log(`a soma é ${soma}`)
+ }
+
+ //ativ 2 
+ const Dobro=()=>{
+  let dobroo= 5*5 
+  console.log("o dobro sera", dobroo)
+ }
+*/
+
+//DETERMINE O MONSTRO 
+function determinaMonstro (temPeleGelada, transformaComLuaCheia, brilhaAoSol, temSedeDeSangue){
+  /*se*/ if (temPeleGelada,brilhaAoSol,temSedeDeSangue) {
+    console.log("você é um vampiro!")
+  temPeleGelada(); brilhaAoSol(); temSedeDeSangue();
+  } else 
+
+  console.log("voce nao é um vampiro!")
+
+  if (transformaComLuaCheia){
+  console.log("voce é um lobisomen!")
+  transformaComLuaCheia();
+}else
+
+console.log("não? entao voce nao é um lobisomen")
+
    
 
 
-}
+
 
 
 
