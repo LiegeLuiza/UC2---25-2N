@@ -1,4 +1,4 @@
-const professor = {
+/*const professor = {
 nome: "lucas",
 idade: 33,
 email: "lucas.g.f.alves@gmail.com"
@@ -19,6 +19,9 @@ modelo: "K14" //a ultima n precisa por virgula
 console.log("marca:", laptop.marca)
 
 //EXERCICIO 
+//adicionar ao objeto do exercicio 1 lista com os personagens do filme 
+//imprimir cada pessoa do console com seu respectivo personagem 
+//altere a primeira pessoa do elenco por "xuxa"
 const filme = {
 direção: "James wan",
 nome: "invocação do mal 1 ", 
@@ -51,10 +54,10 @@ const professores = [
 {nome: "valter", modulo:1}
 
 ]
-console.log("o professor", professores[0].nome, "deu o modulo", professores[0].modulo)
+console.log("o professor", professores[0].nome, "deu o modulo", professores[0].modulo)*/
 
 //EXERCICIO 3 
- filme = {
+ const filme = {
     direção: "James wan",
     nome: "invocação do mal 1 ", 
     ano: "2013",
@@ -69,7 +72,8 @@ console.log("o professor", professores[0].nome, "deu o modulo", professores[0].m
     console.log(filme.nome)
     console.log(filme.ano)
     console.log(filme["listaElenco"])
-    console.log(filme.listaElenco=[0], listaPersonagens=[0])
+    console.log(filme.listaElenco[0].listaPersonagens)
+console.log(filme.listaPersonagens[0].listaElenco)
     console.log(filme["jaAssistiu"])
     
 
