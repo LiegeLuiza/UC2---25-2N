@@ -15,20 +15,55 @@ pessoaColega()
 
 //ATIV HORA DE AVENTURA
 const personagens = [
-{nome:"marceline"},
-{idade:"mil anos"}, 
-{estilo:"vampira"},
-{poderes:"transformação em morcego e demonio"}
-]
-function adicionarPersonagem(objeto){
-personagens.push(objeto)
+{nome:"marceline",
+idade:"mil anos", 
+estilo:"vampira",
+poderes:["transformação em morcego", "transformação em demonio"]
+},
+{nome: "simon", 
+idade: "47",
+estilo: "mago",
+poderes: ["gelo", "inteligencia"]
+},
+{nome:"jake",
+idade: "28", 
+estilo:"cachorro",
+poderes:["elasticidade", "revigoração"]
+}]
+
+function adicionarPersonagem (personagem){
+personagens.push(personagem)
+console.log(`o personagem${personagem.nome} foi adicionado`)
+
 }
-const novoPersonagem = {
-nome: simon, 
-idade: 47, 
-classe: médio,
-poderes: gelo
+
+const persona={
+nome: "princesa  jujuba",
+idade: "827",
+estilo: "doce",
+poderes:["inteligencia maxima", "soltar doces"]
+
 }
-function buscarPersonagem(){
+
+adicionarPersonagem(persona)
+
+function buscarPersonagem (nomeBuscado){
+   function personagem(perso){
+return perso.nomeBuscado.toLowerCase()===nomeBuscado.toLowerCase()
+
+   }
+const personagemEncontrado = personagens.find (personagem)
+if (personagemEncontrado) {
+
+
     
 }
+
+
+
+
+
+
+}
+
+
